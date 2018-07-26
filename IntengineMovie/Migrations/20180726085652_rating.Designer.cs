@@ -11,9 +11,10 @@ using System;
 namespace IntengineMovie.Migrations
 {
     [DbContext(typeof(IntengineMovieContext))]
-    partial class IntengineMovieContextModelSnapshot : ModelSnapshot
+    [Migration("20180726085652_rating")]
+    partial class rating
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
