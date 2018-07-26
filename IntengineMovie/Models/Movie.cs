@@ -21,5 +21,7 @@ namespace IntengineMovie.Models
         [Display(Name = "Price")]
         [Column(TypeName = "decimal(18, 2)")]
         public decimal price { get; set; }
+
+        public string rating { get; set; }
     }
 }
