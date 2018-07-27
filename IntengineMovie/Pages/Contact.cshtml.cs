@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace IntengineMovie.Pages
 {
@@ -12,7 +8,7 @@ namespace IntengineMovie.Pages
 
         public void OnGet()
         {
-            Message = "Your contact page.";
+            Message = "Skontaktuj się z nami";
         }
     }
 }

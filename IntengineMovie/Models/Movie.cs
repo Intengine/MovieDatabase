@@ -30,6 +30,7 @@ namespace IntengineMovie.Models
         public decimal price { get; set; }
 
         [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
+        [Display(Name = "Rating")]
         [StringLength(5)]
         [Required]
         public string rating { get; set; }

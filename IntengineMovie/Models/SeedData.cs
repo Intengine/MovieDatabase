@@ -17,34 +17,6 @@ namespace IntengineMovie.Models
                     return;
                 }
 
-                context.Movie.AddRange(
-                    new Movie
-                    {
-                        title = "The Godfather",
-                        releaseDate = DateTime.Parse("1972-08-12"),
-                        genre = "Drama",
-                        price = 49.99M,
-                        rating = "R"
-                    },
-                    
-                    new Movie
-                    {
-                        title = "Scarface",
-                        releaseDate = DateTime.Parse("1980-12-02"),
-                        genre = "Action",
-                        price = 39.89M,
-                        rating = "R"
-                    },
-
-                    new Movie
-                    {
-                        title = "Rio Bravo",
-                        releaseDate = DateTime.Parse("1959-4-15"),
-                        genre = "Western",
-                        price = 28.79M,
-                        rating = "R"
-                    }
-                );
                 context.SaveChanges();
             }
         }
