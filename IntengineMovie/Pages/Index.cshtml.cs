@@ -6,7 +6,6 @@ namespace IntengineMovie.Pages
     {
         public void OnGet()
         {
-
         }
     }
 }
