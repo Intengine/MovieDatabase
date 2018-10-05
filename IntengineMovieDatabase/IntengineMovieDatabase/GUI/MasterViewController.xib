@@ -17,14 +17,14 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZX-Ja-sj3">
-                    <rect key="frame" x="0.0" y="137" width="240" height="135"/>
+                    <rect key="frame" x="0.0" y="-1" width="240" height="273"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <clipView key="contentView" ambiguous="YES" id="oYm-pg-FsX">
-                        <rect key="frame" x="1" y="0.0" width="238" height="134"/>
+                        <rect key="frame" x="1" y="0.0" width="238" height="272"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="PeT-pe-oqb" viewBased="YES" id="Kur-B3-gwr">
-                                <rect key="frame" x="0.0" y="0.0" width="238" height="109"/>
+                                <rect key="frame" x="0.0" y="0.0" width="238" height="247"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <size key="intercellSpacing" width="3" height="2"/>
                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>

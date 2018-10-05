@@ -11,6 +11,7 @@
 
 @interface AppDelegate ()
 @property (nonatomic, strong) IBOutlet MasterViewController *masterViewController;
+@property(strong) NSWindow *window;
 @end
 
 @implementation AppDelegate

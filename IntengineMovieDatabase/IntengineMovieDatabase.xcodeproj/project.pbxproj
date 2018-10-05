@@ -59,11 +59,7 @@
 		87CAFDA12167931700BF56FA /* IntengineMovieDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				87CAFDA22167931700BF56FA /* AppDelegate.h */,
-				87CAFDA32167931700BF56FA /* AppDelegate.m */,
-				87CAFDBB2167968000BF56FA /* MasterViewController.h */,
-				87CAFDBC2167968000BF56FA /* MasterViewController.m */,
-				87CAFDBD2167968000BF56FA /* MasterViewController.xib */,
+				87CAFDC021679F4C00BF56FA /* GUI */,
 				87CAFDA82167931800BF56FA /* Assets.xcassets */,
 				87CAFDAA2167931800BF56FA /* Main.storyboard */,
 				87CAFDAD2167931800BF56FA /* Info.plist */,
@@ -71,6 +67,18 @@
 				87CAFDB02167931800BF56FA /* IntengineMovieDatabase.entitlements */,
 			);
 			path = IntengineMovieDatabase;
+			sourceTree = "<group>";
+		};
+		87CAFDC021679F4C00BF56FA /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				87CAFDA22167931700BF56FA /* AppDelegate.h */,
+				87CAFDA32167931700BF56FA /* AppDelegate.m */,
+				87CAFDBB2167968000BF56FA /* MasterViewController.h */,
+				87CAFDBC2167968000BF56FA /* MasterViewController.m */,
+				87CAFDBD2167968000BF56FA /* MasterViewController.xib */,
+			);
+			path = GUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
