@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		87CAFDA42167931700BF56FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDA32167931700BF56FA /* AppDelegate.m */; };
-		87CAFDA72167931700BF56FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDA62167931700BF56FA /* ViewController.m */; };
 		87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDA82167931800BF56FA /* Assets.xcassets */; };
 		87CAFDAC2167931800BF56FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDAA2167931800BF56FA /* Main.storyboard */; };
 		87CAFDAF2167931800BF56FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDAE2167931800BF56FA /* main.m */; };
+		87CAFDBE2167968000BF56FA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDBC2167968000BF56FA /* MasterViewController.m */; };
+		87CAFDBF2167968000BF56FA /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDBD2167968000BF56FA /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87CAFD9F2167931700BF56FA /* IntengineMovieDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntengineMovieDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CAFDA22167931700BF56FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87CAFDA32167931700BF56FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87CAFDA52167931700BF56FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		87CAFDA62167931700BF56FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		87CAFDA82167931800BF56FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87CAFDAB2167931800BF56FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87CAFDAD2167931800BF56FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87CAFDAE2167931800BF56FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87CAFDB02167931800BF56FA /* IntengineMovieDatabase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntengineMovieDatabase.entitlements; sourceTree = "<group>"; };
+		87CAFDBB2167968000BF56FA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		87CAFDBC2167968000BF56FA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		87CAFDBD2167968000BF56FA /* MasterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 			children = (
 				87CAFDA22167931700BF56FA /* AppDelegate.h */,
 				87CAFDA32167931700BF56FA /* AppDelegate.m */,
-				87CAFDA52167931700BF56FA /* ViewController.h */,
-				87CAFDA62167931700BF56FA /* ViewController.m */,
+				87CAFDBB2167968000BF56FA /* MasterViewController.h */,
+				87CAFDBC2167968000BF56FA /* MasterViewController.m */,
+				87CAFDBD2167968000BF56FA /* MasterViewController.xib */,
 				87CAFDA82167931800BF56FA /* Assets.xcassets */,
 				87CAFDAA2167931800BF56FA /* Main.storyboard */,
 				87CAFDAD2167931800BF56FA /* Info.plist */,
@@ -129,6 +132,7 @@
 			files = (
 				87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */,
 				87CAFDAC2167931800BF56FA /* Main.storyboard in Resources */,
+				87CAFDBF2167968000BF56FA /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CAFDA72167931700BF56FA /* ViewController.m in Sources */,
+				87CAFDBE2167968000BF56FA /* MasterViewController.m in Sources */,
 				87CAFDAF2167931800BF56FA /* main.m in Sources */,
 				87CAFDA42167931700BF56FA /* AppDelegate.m in Sources */,
 			);
