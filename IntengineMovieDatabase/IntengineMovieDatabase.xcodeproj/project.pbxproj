@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		875BC22B216F40C80056AB9B /* NSObject+IntengineMovieData.m in Sources */ = {isa = PBXBuildFile; fileRef = 875BC22A216F40C80056AB9B /* NSObject+IntengineMovieData.m */; };
+		875BC22E216F441F0056AB9B /* NSObject+IntengineMovieDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 875BC22D216F441F0056AB9B /* NSObject+IntengineMovieDoc.m */; };
 		87CAFDA42167931700BF56FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDA32167931700BF56FA /* AppDelegate.m */; };
 		87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDA82167931800BF56FA /* Assets.xcassets */; };
 		87CAFDAC2167931800BF56FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDAA2167931800BF56FA /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		875BC229216F40C80056AB9B /* NSObject+IntengineMovieData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+IntengineMovieData.h"; sourceTree = "<group>"; };
 		875BC22A216F40C80056AB9B /* NSObject+IntengineMovieData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IntengineMovieData.m"; sourceTree = "<group>"; };
+		875BC22C216F441F0056AB9B /* NSObject+IntengineMovieDoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+IntengineMovieDoc.h"; sourceTree = "<group>"; };
+		875BC22D216F441F0056AB9B /* NSObject+IntengineMovieDoc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IntengineMovieDoc.m"; sourceTree = "<group>"; };
 		87CAFD9F2167931700BF56FA /* IntengineMovieDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntengineMovieDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CAFDA22167931700BF56FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87CAFDA32167931700BF56FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +51,8 @@
 			children = (
 				875BC229216F40C80056AB9B /* NSObject+IntengineMovieData.h */,
 				875BC22A216F40C80056AB9B /* NSObject+IntengineMovieData.m */,
+				875BC22C216F441F0056AB9B /* NSObject+IntengineMovieDoc.h */,
+				875BC22D216F441F0056AB9B /* NSObject+IntengineMovieDoc.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			files = (
 				87CAFDBE2167968000BF56FA /* MasterViewController.m in Sources */,
 				87CAFDAF2167931800BF56FA /* main.m in Sources */,
+				875BC22E216F441F0056AB9B /* NSObject+IntengineMovieDoc.m in Sources */,
 				875BC22B216F40C80056AB9B /* NSObject+IntengineMovieData.m in Sources */,
 				87CAFDA42167931700BF56FA /* AppDelegate.m in Sources */,
 			);
