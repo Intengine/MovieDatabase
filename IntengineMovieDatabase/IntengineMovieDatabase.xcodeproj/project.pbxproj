@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		875BC22B216F40C80056AB9B /* NSObject+IntengineMovieData.m in Sources */ = {isa = PBXBuildFile; fileRef = 875BC22A216F40C80056AB9B /* NSObject+IntengineMovieData.m */; };
 		875BC22E216F441F0056AB9B /* NSObject+IntengineMovieDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 875BC22D216F441F0056AB9B /* NSObject+IntengineMovieDoc.m */; };
+		875BC230216F4B010056AB9B /* TheGodfatherThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 875BC22F216F4B010056AB9B /* TheGodfatherThumb.jpg */; };
+		875BC232216F4B620056AB9B /* TaxiDriverThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 875BC231216F4B620056AB9B /* TaxiDriverThumb.jpg */; };
+		875BC234216F4C180056AB9B /* TreeOfLifeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 875BC233216F4C180056AB9B /* TreeOfLifeThumb.jpg */; };
+		875BC236216F4F220056AB9B /* TaxiDriver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 875BC235216F4F220056AB9B /* TaxiDriver.jpg */; };
+		875BC238216F4F2B0056AB9B /* TheGodfather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 875BC237216F4F2B0056AB9B /* TheGodfather.jpg */; };
+		875BC23A216F4F360056AB9B /* TreeOfLife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 875BC239216F4F360056AB9B /* TreeOfLife.jpg */; };
 		87CAFDA42167931700BF56FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDA32167931700BF56FA /* AppDelegate.m */; };
 		87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDA82167931800BF56FA /* Assets.xcassets */; };
 		87CAFDAC2167931800BF56FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDAA2167931800BF56FA /* Main.storyboard */; };
@@ -22,6 +28,12 @@
 		875BC22A216F40C80056AB9B /* NSObject+IntengineMovieData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IntengineMovieData.m"; sourceTree = "<group>"; };
 		875BC22C216F441F0056AB9B /* NSObject+IntengineMovieDoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+IntengineMovieDoc.h"; sourceTree = "<group>"; };
 		875BC22D216F441F0056AB9B /* NSObject+IntengineMovieDoc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IntengineMovieDoc.m"; sourceTree = "<group>"; };
+		875BC22F216F4B010056AB9B /* TheGodfatherThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGodfatherThumb.jpg; sourceTree = "<group>"; };
+		875BC231216F4B620056AB9B /* TaxiDriverThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TaxiDriverThumb.jpg; sourceTree = "<group>"; };
+		875BC233216F4C180056AB9B /* TreeOfLifeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TreeOfLifeThumb.jpg; sourceTree = "<group>"; };
+		875BC235216F4F220056AB9B /* TaxiDriver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TaxiDriver.jpg; sourceTree = "<group>"; };
+		875BC237216F4F2B0056AB9B /* TheGodfather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGodfather.jpg; sourceTree = "<group>"; };
+		875BC239216F4F360056AB9B /* TreeOfLife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TreeOfLife.jpg; sourceTree = "<group>"; };
 		87CAFD9F2167931700BF56FA /* IntengineMovieDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntengineMovieDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CAFDA22167931700BF56FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87CAFDA32167931700BF56FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +102,12 @@
 		87CAFDC021679F4C00BF56FA /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				875BC235216F4F220056AB9B /* TaxiDriver.jpg */,
+				875BC231216F4B620056AB9B /* TaxiDriverThumb.jpg */,
+				875BC237216F4F2B0056AB9B /* TheGodfather.jpg */,
+				875BC22F216F4B010056AB9B /* TheGodfatherThumb.jpg */,
+				875BC239216F4F360056AB9B /* TreeOfLife.jpg */,
+				875BC233216F4C180056AB9B /* TreeOfLifeThumb.jpg */,
 				87CAFDA22167931700BF56FA /* AppDelegate.h */,
 				87CAFDA32167931700BF56FA /* AppDelegate.m */,
 				87CAFDBB2167968000BF56FA /* MasterViewController.h */,
@@ -156,9 +174,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875BC236216F4F220056AB9B /* TaxiDriver.jpg in Resources */,
+				875BC23A216F4F360056AB9B /* TreeOfLife.jpg in Resources */,
 				87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */,
+				875BC230216F4B010056AB9B /* TheGodfatherThumb.jpg in Resources */,
 				87CAFDAC2167931800BF56FA /* Main.storyboard in Resources */,
+				875BC238216F4F2B0056AB9B /* TheGodfather.jpg in Resources */,
 				87CAFDBF2167968000BF56FA /* MasterViewController.xib in Resources */,
+				875BC234216F4C180056AB9B /* TreeOfLifeThumb.jpg in Resources */,
+				875BC232216F4B620056AB9B /* TaxiDriverThumb.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MasterViewController : NSViewController
 
+@property (strong) NSMutableArray *movies;
+
 @end
 
 NS_ASSUME_NONNULL_END
