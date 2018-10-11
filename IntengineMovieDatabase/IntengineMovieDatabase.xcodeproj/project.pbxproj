@@ -15,6 +15,10 @@
 		875BC236216F4F220056AB9B /* TaxiDriver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 875BC235216F4F220056AB9B /* TaxiDriver.jpg */; };
 		875BC238216F4F2B0056AB9B /* TheGodfather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 875BC237216F4F2B0056AB9B /* TheGodfather.jpg */; };
 		875BC23A216F4F360056AB9B /* TreeOfLife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 875BC239216F4F360056AB9B /* TreeOfLife.jpg */; };
+		875BC23C216F5D500056AB9B /* NSObject+IntengineMovieData.h in Sources */ = {isa = PBXBuildFile; fileRef = 875BC229216F40C80056AB9B /* NSObject+IntengineMovieData.h */; };
+		875BC23D216F5D500056AB9B /* NSObject+IntengineMovieDoc.h in Sources */ = {isa = PBXBuildFile; fileRef = 875BC22C216F441F0056AB9B /* NSObject+IntengineMovieDoc.h */; };
+		875BC23E216F5D500056AB9B /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDA22167931700BF56FA /* AppDelegate.h */; };
+		875BC23F216F5D500056AB9B /* MasterViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDBB2167968000BF56FA /* MasterViewController.h */; };
 		87CAFDA42167931700BF56FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDA32167931700BF56FA /* AppDelegate.m */; };
 		87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDA82167931800BF56FA /* Assets.xcassets */; };
 		87CAFDAC2167931800BF56FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDAA2167931800BF56FA /* Main.storyboard */; };
@@ -193,6 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875BC23C216F5D500056AB9B /* NSObject+IntengineMovieData.h in Sources */,
+				875BC23D216F5D500056AB9B /* NSObject+IntengineMovieDoc.h in Sources */,
+				875BC23E216F5D500056AB9B /* AppDelegate.h in Sources */,
+				875BC23F216F5D500056AB9B /* MasterViewController.h in Sources */,
 				87CAFDBE2167968000BF56FA /* MasterViewController.m in Sources */,
 				87CAFDAF2167931800BF56FA /* main.m in Sources */,
 				875BC22E216F441F0056AB9B /* NSObject+IntengineMovieDoc.m in Sources */,
