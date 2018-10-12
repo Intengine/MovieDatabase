@@ -343,10 +343,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4G34X2F73N;
 				INFOPLIST_FILE = IntengineMovieDatabase/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = INT.IntengineMovieDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,10 +358,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4G34X2F73N;
 				INFOPLIST_FILE = IntengineMovieDatabase/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = INT.IntengineMovieDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
