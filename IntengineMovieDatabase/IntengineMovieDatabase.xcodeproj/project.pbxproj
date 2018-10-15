@@ -21,7 +21,6 @@
 		875BC23F216F5D500056AB9B /* MasterViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDBB2167968000BF56FA /* MasterViewController.h */; };
 		87CAFDA42167931700BF56FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDA32167931700BF56FA /* AppDelegate.m */; };
 		87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDA82167931800BF56FA /* Assets.xcassets */; };
-		87CAFDAC2167931800BF56FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDAA2167931800BF56FA /* Main.storyboard */; };
 		87CAFDAF2167931800BF56FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDAE2167931800BF56FA /* main.m */; };
 		87CAFDBE2167968000BF56FA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDBC2167968000BF56FA /* MasterViewController.m */; };
 		87CAFDBF2167968000BF56FA /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDBD2167968000BF56FA /* MasterViewController.xib */; };
@@ -42,8 +41,6 @@
 		87CAFDA22167931700BF56FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87CAFDA32167931700BF56FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		87CAFDA82167931800BF56FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		87CAFDAB2167931800BF56FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87CAFDAD2167931800BF56FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87CAFDAE2167931800BF56FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87CAFDB02167931800BF56FA /* IntengineMovieDatabase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntengineMovieDatabase.entitlements; sourceTree = "<group>"; };
 		87CAFDBB2167968000BF56FA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
@@ -95,8 +92,6 @@
 				875BC228216F403E0056AB9B /* Model */,
 				87CAFDC021679F4C00BF56FA /* GUI */,
 				87CAFDA82167931800BF56FA /* Assets.xcassets */,
-				87CAFDAA2167931800BF56FA /* Main.storyboard */,
-				87CAFDAD2167931800BF56FA /* Info.plist */,
 				87CAFDAE2167931800BF56FA /* main.m */,
 				87CAFDB02167931800BF56FA /* IntengineMovieDatabase.entitlements */,
 			);
@@ -182,7 +177,6 @@
 				875BC23A216F4F360056AB9B /* TreeOfLife.jpg in Resources */,
 				87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */,
 				875BC230216F4B010056AB9B /* TheGodfatherThumb.jpg in Resources */,
-				87CAFDAC2167931800BF56FA /* Main.storyboard in Resources */,
 				875BC238216F4F2B0056AB9B /* TheGodfather.jpg in Resources */,
 				87CAFDBF2167968000BF56FA /* MasterViewController.xib in Resources */,
 				875BC234216F4C180056AB9B /* TreeOfLifeThumb.jpg in Resources */,
@@ -210,17 +204,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		87CAFDAA2167931800BF56FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87CAFDAB2167931800BF56FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		87CAFDB12167931800BF56FA /* Debug */ = {
@@ -344,6 +327,12 @@
 				DEVELOPMENT_TEAM = 4G34X2F73N;
 				INFOPLIST_FILE = IntengineMovieDatabase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"$(INFOPLIST_FILE)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = INT.IntengineMovieDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,6 +348,12 @@
 				DEVELOPMENT_TEAM = 4G34X2F73N;
 				INFOPLIST_FILE = IntengineMovieDatabase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"$(INFOPLIST_FILE)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = INT.IntengineMovieDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
