@@ -20,7 +20,6 @@
 		875BC23E216F5D500056AB9B /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDA22167931700BF56FA /* AppDelegate.h */; };
 		875BC23F216F5D500056AB9B /* MasterViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDBB2167968000BF56FA /* MasterViewController.h */; };
 		87CAFDA42167931700BF56FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDA32167931700BF56FA /* AppDelegate.m */; };
-		87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDA82167931800BF56FA /* Assets.xcassets */; };
 		87CAFDAF2167931800BF56FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDAE2167931800BF56FA /* main.m */; };
 		87CAFDBE2167968000BF56FA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CAFDBC2167968000BF56FA /* MasterViewController.m */; };
 		87CAFDBF2167968000BF56FA /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CAFDBD2167968000BF56FA /* MasterViewController.xib */; };
@@ -40,7 +39,6 @@
 		87CAFD9F2167931700BF56FA /* IntengineMovieDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntengineMovieDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CAFDA22167931700BF56FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		87CAFDA32167931700BF56FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		87CAFDA82167931800BF56FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87CAFDAE2167931800BF56FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87CAFDB02167931800BF56FA /* IntengineMovieDatabase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntengineMovieDatabase.entitlements; sourceTree = "<group>"; };
 		87CAFDBB2167968000BF56FA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 			children = (
 				875BC228216F403E0056AB9B /* Model */,
 				87CAFDC021679F4C00BF56FA /* GUI */,
-				87CAFDA82167931800BF56FA /* Assets.xcassets */,
 				87CAFDAE2167931800BF56FA /* main.m */,
 				87CAFDB02167931800BF56FA /* IntengineMovieDatabase.entitlements */,
 			);
@@ -175,7 +172,6 @@
 			files = (
 				875BC236216F4F220056AB9B /* TaxiDriver.jpg in Resources */,
 				875BC23A216F4F360056AB9B /* TreeOfLife.jpg in Resources */,
-				87CAFDA92167931800BF56FA /* Assets.xcassets in Resources */,
 				875BC230216F4B010056AB9B /* TheGodfatherThumb.jpg in Resources */,
 				875BC238216F4F2B0056AB9B /* TheGodfather.jpg in Resources */,
 				87CAFDBF2167968000BF56FA /* MasterViewController.xib in Resources */,
@@ -320,6 +316,7 @@
 		87CAFDB42167931800BF56FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IntengineMovieDatabase/IntengineMovieDatabase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -341,6 +338,7 @@
 		87CAFDB52167931800BF56FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IntengineMovieDatabase/IntengineMovieDatabase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
