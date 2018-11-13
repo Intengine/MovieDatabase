@@ -20,7 +20,7 @@
         //set up data
         wrap = YES;
         self.items = [NSMutableArray array];
-        for (int i = 0; i < 1000; i++)
+        for (int i = 0; i < 20; i++)
         {
             [items addObject:[NSNumber numberWithInt:i]];
         }
@@ -41,7 +41,6 @@
 	//sending messages to a deallocated window or view controller
 	carousel.delegate = nil;
 	carousel.dataSource = nil;
-	
 }
 
 - (IBAction)switchCarouselType:(id)sender
@@ -197,7 +196,7 @@
         case iCarouselOptionWrap:
         {
             //normally you would hard-code this to YES or NO
-            return self.wrap;
+            return NO;
         }
         case iCarouselOptionSpacing:
         {
