@@ -1,2 +1,2 @@
 # MovieDatabase
-Intengine Movie Database, using Objective-C [WIP]
+Intengine Movie Database, using ReactJS [WIP]
