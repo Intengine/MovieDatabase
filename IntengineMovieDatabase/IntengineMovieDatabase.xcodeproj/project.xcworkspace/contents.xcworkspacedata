@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IntengineMovieDatabase.xcodeproj">
+      location = "self:/Users/sylwesterpilarz/Desktop/prgm/MovieDatabase/IntengineMovieDatabase/IntengineMovieDatabase.xcodeproj">
    </FileRef>
 </Workspace>
