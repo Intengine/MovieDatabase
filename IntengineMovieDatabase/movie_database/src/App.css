@@ -31,8 +31,18 @@
   }
 }
 
-table {
+.titleBar {
   background-color: #000000;
   color: #ffffff;
   display: block;
+  padding-left: 16px;
+}
+
+.searchBar {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
 }
