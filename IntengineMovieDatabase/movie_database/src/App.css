@@ -30,3 +30,9 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  background-color: #000000;
+  color: #ffffff;
+  display: block;
+}
