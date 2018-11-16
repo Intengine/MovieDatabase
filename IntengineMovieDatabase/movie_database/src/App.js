@@ -36,8 +36,9 @@ class App extends Component {
   }
 
   searchChangeHandler(event) {
+      const boundObject = this;
       const searchTerm = event.target.value;
-      this.performSearch(searchTerm);
+      boundObject.performSearch(searchTerm);
   }
 
   render() {
@@ -54,7 +55,7 @@ class App extends Component {
           </tbody>
         </table>
 
-          <input className="searchBar" onChange={this.searchChangeHandler} placeholder="Wpisz nazwę filmu"></input>
+          <input className="searchBar" onChange={this.searchChangeHandler.bind(this)} placeholder="Wpisz nazwę filmu"></input>
 
           {this.state.rows}
 
