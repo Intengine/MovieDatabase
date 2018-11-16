@@ -16,6 +16,22 @@ class App extends Component {
             <p key="2">This is my row 1</p>,
             <p key="3">This is my row 2</p>
         ]};
+
+    var movieRows = [];
+    movies.forEach((movie) => {
+        console.log(movie.title);
+        const movieRow = <table key={movie.id}>
+            <tbody>
+            <tr>
+                <td><img alt="movie poster" src=""/></td>
+                <td>{movie.title}</td>
+            </tr>
+            </tbody>
+        </table>
+        movieRows.push(movieRow);
+    });
+
+    this.state = {rows: movieRows};
   }
 
   render() {
@@ -25,7 +41,7 @@ class App extends Component {
         <table className="titleBar">
           <tbody>
           <tr>
-              <td><img alt="app icon" width="100" src="logo.png"/></td>
+              <td><img alt="app logo" width="100" src="logo.png"/></td>
               <td width="10"></td>
               <td><h1>Intengine Movie Database</h1></td>
           </tr>
