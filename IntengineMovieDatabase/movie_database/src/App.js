@@ -7,42 +7,37 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {};
-    /*console.log("This is my initializer");*/
-
-    /*const movies = [
-        {id: 0, poster_src:"https://image.tmdb.org/t/p/w185/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg", title: "Avengers: Infinity War", overview: "Lorem ipsum dolor sit amet."},
-        {id: 1, poster_src:"https://image.tmdb.org/t/p/w185/cezWGskPY5x7GaglTTRN4Fugfb8.jpg", title: "The Avengers", overview: "Lorem ipsum dolor sit amet."}
-    ]
-
-    var movieRows = [];
-    movies.forEach((movie) => {
-        console.log(movie.title);
-        const movieRow = <MovieRow movie={movie}/>;
-        movieRows.push(movieRow);
-    });
-
-    this.state = {rows: movieRows};*/
-
     this.performSearch();
   }
 
-  performSearch() {
+  performSearch(searchTerm) {
       console.log("Perform search using moviedb API");
-      const urlString = "https://api.themoviedb.org/3/search/movie?query=marvel&api_key=1b5adf76a72a13bad99b8fc0c68cb085";
+      const urlString = "https://api.themoviedb.org/3/search/movie?api_key=1b5adf76a72a13bad99b8fc0c68cb085&query=" + searchTerm;
       $.ajax({
           url: urlString,
           success: (searchResults) => {
               console.log("Fetched data successfully");
               const results = searchResults.results;
 
+              var movieRows = [];
+
               results.forEach((movie) => {
-                  console.log(movie.title);
+                  movie.poster_src = "https://image.tmdb.org/t/p/w185" + movie.poster_path;
+                  const movieRow = <MovieRow key={movie.id} movie={movie}/>;
+                  movieRows.push(movieRow);
               });
+
+              this.setState({rows: movieRows})
           },
           error: (xhr, status, err) => {
               console.error("Failed to fetch data");
           }
       });
+  }
+
+  searchChangeHandler(event) {
+      const searchTerm = event.target.value;
+      this.performSearch(searchTerm);
   }
 
   render() {
@@ -59,7 +54,7 @@ class App extends Component {
           </tbody>
         </table>
 
-          <input className="searchBar" placeholder="Wpisz nazwę filmu"></input>
+          <input className="searchBar" onChange={this.searchChangeHandler} placeholder="Wpisz nazwę filmu"></input>
 
           {this.state.rows}
 
