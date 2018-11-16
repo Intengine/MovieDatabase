@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import MovieRow from './MovieRow.js';
 
 class App extends Component {
   constructor(props) {
@@ -7,27 +8,14 @@ class App extends Component {
     console.log("This is my initializer");
 
     const movies = [
-        {id: 0, title: "Avengers: Infinity War", overview: "Lorem ipsum dolor sit amet."},
-        {id: 1, title: "The Avengers", overview: "Lorem ipsum dolor sit amet."}
+        {id: 0, poster_src:"https://image.tmdb.org/t/p/w185/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg", title: "Avengers: Infinity War", overview: "Lorem ipsum dolor sit amet."},
+        {id: 1, poster_src:"https://image.tmdb.org/t/p/w185/cezWGskPY5x7GaglTTRN4Fugfb8.jpg", title: "The Avengers", overview: "Lorem ipsum dolor sit amet."}
     ]
-
-    this.state = {rows: [
-            <p key="1">This is my row 0</p>,
-            <p key="2">This is my row 1</p>,
-            <p key="3">This is my row 2</p>
-        ]};
 
     var movieRows = [];
     movies.forEach((movie) => {
         console.log(movie.title);
-        const movieRow = <table key={movie.id}>
-            <tbody>
-            <tr>
-                <td><img alt="movie poster" src=""/></td>
-                <td>{movie.title}</td>
-            </tr>
-            </tbody>
-        </table>
+        const movieRow = <MovieRow movie={movie}/>;
         movieRows.push(movieRow);
     });
 
@@ -36,7 +24,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div>
 
         <table className="titleBar">
           <tbody>
