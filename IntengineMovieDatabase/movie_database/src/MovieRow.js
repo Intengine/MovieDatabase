@@ -15,6 +15,7 @@ class MovieRow extends React.Component {
                 <td><h3>{this.props.movie.title}</h3>
                     <p>{this.props.movie.overview}</p>
                     <input type="button" onClick={this.viewMovie.bind(this)} value="View"/>
+                    <p>{this.props.movie.vote_average}</p>
                 </td>
             </tr>
             </tbody>
