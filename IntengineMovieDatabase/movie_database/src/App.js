@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './circle.css';
 import MovieRow from './MovieRow.js';
 import $ from 'jquery';
 
