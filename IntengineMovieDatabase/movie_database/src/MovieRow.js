@@ -15,9 +15,10 @@ class MovieRow extends React.Component {
         return <table key={this.props.movie.id}>
             <tbody>
             <tr>
-                <td><img alt="movie poster" width="150" src={this.props.movie.poster_src}/></td>
+                <td><img alt="movie poster" width="200" src={this.props.movie.poster_src}/></td>
                 <td width="10"></td>
                 <td><h3>{this.props.movie.title}</h3>
+                    <h4>{this.props.movie.release_date}</h4>
                     <p>{this.props.movie.overview}</p>
                     <p>
                         <div className="c100 small dark rect-auto">
