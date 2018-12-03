@@ -1,2 +1,2 @@
 # MovieDatabase
-Intengine Movie Database, using ReactJS [WIP]
+Intengine Movie Database, using ReactJS
